@@ -10,3 +10,4 @@ rollout8_4 - 16 epoch: 0.2421
 rolloutn8_noise_4 - 16 epoch: 0.93
 
 rolloutn8_noise_4 - 53 epoch =  0.1383
+

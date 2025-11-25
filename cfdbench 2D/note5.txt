@@ -1,0 +1,52 @@
+--------------------------------- 10e-13 - full traj - 32epoch----------------------------
+ROLLOUT_STEPS = 8 
+SAMPLING_PROB = 0.8  
+Model 5 (Autoregressive, 3-in) Test Loss: 1.7215
+
+-----------------------------------------------------------------------------------------
+--------------------------------- 10e-13 - last traj - 32epoch----------------------------
+ROLLOUT_STEPS = 5 
+SAMPLING_PROB = 0.6  # more Autoregressive
+Model 5 (Autoregressive, 3-in) Test Loss: 1.6344
+
+---------------------------------------------------------------------------------------
+--------------------------------- 10e-13 - last traj - 32epoch----------------------------
+ROLLOUT_STEPS = 5 
+SAMPLING_PROB = 0.3  # more Autoregressive
+--> Model 5 (Autoregressive, 3-in) Test Loss: 1.507
+--> "[0/32] Data Only | Train Data Loss: 3.3667e-03 | Train Phys Loss: 0.00e+00 | Val: 1.1068e-04\n",
+      "[1/32] Data Only | Train Data Loss: 6.3910e-05 | Train Phys Loss: 0.00e+00 | Val: 5.1206e-05\n",
+      "[2/32] Data Only | Train Data Loss: 3.8717e-05 | Train Phys Loss: 0.00e+00 | Val: 4.9045e-05\n",
+      "[3/32] Data Only | Train Data Loss: 3.3914e-05 | Train Phys Loss: 0.00e+00 | Val: 4.2314e-05\n",
+      "[4/32] Data Only | Train Data Loss: 3.2060e-05 | Train Phys Loss: 0.00e+00 | Val: 3.0848e-05\n",
+      "[5/32] Ramping (0%) | Train Data Loss: 3.4236e-05 | Train Phys Loss: 0.00e+00 | Val: 2.8083e-05\n",
+      "[6/32] Ramping (10%) | Train Data Loss: 3.5755e-05 | Train Phys Loss: 6.77e-07 | Val: 1.9741e-05\n",
+      "[7/32] Ramping (20%) | Train Data Loss: 2.1110e-05 | Train Phys Loss: 1.34e-06 | Val: 1.9694e-05\n",
+      "[8/32] Ramping (30%) | Train Data Loss: 2.5196e-05 | Train Phys Loss: 2.00e-06 | Val: 2.0649e-05\n",
+      "[9/32] Ramping (40%) | Train Data Loss: 2.4024e-05 | Train Phys Loss: 2.65e-06 | Val: 9.7229e-05\n",
+      "[10/32] Ramping (50%) | Train Data Loss: 2.6072e-05 | Train Phys Loss: 3.29e-06 | Val: 1.1919e-05\n",
+      "[11/32] Ramping (60%) | Train Data Loss: 1.5359e-05 | Train Phys Loss: 3.91e-06 | Val: 1.7420e-05\n",
+      "[12/32] Ramping (70%) | Train Data Loss: 2.0390e-05 | Train Phys Loss: 4.52e-06 | Val: 7.6431e-05\n",
+      "[13/32] Ramping (80%) | Train Data Loss: 1.7352e-05 | Train Phys Loss: 5.12e-06 | Val: 1.6257e-05\n",
+      "[14/32] Ramping (90%) | Train Data Loss: 1.5890e-05 | Train Phys Loss: 5.71e-06 | Val: 1.2261e-05\n",
+      "[15/32] Full Phys | Train Data Loss: 1.7072e-05 | Train Phys Loss: 6.29e-06 | Val: 9.9294e-06\n",
+      "[16/32] Full Phys | Train Data Loss: 1.7523e-05 | Train Phys Loss: 6.27e-06 | Val: 6.3259e-06\n",
+      "[17/32] Full Phys | Train Data Loss: 1.5045e-05 | Train Phys Loss: 6.24e-06 | Val: 1.4740e-05\n",
+      "[18/32] Full Phys | Train Data Loss: 8.4870e-06 | Train Phys Loss: 6.23e-06 | Val: 1.7723e-05\n",
+      "[19/32] Full Phys | Train Data Loss: 1.6277e-05 | Train Phys Loss: 6.21e-06 | Val: 1.7332e-05\n",
+      "[20/32] Full Phys | Train Data Loss: 9.9638e-06 | Train Phys Loss: 6.20e-06 | Val: 2.5219e-05\n",
+      "[21/32] Full Phys | Train Data Loss: 1.2369e-05 | Train Phys Loss: 6.19e-06 | Val: 2.3792e-05\n",
+      "[22/32] Full Phys | Train Data Loss: 1.3494e-05 | Train Phys Loss: 6.18e-06 | Val: 9.1013e-06\n",
+      "[23/32] Full Phys | Train Data Loss: 4.2154e-06 | Train Phys Loss: 6.17e-06 | Val: 3.6895e-06\n",
+      "[24/32] Full Phys | Train Data Loss: 3.8964e-06 | Train Phys Loss: 6.17e-06 | Val: 3.5656e-06\n",
+      "[25/32] Full Phys | Train Data Loss: 3.8196e-06 | Train Phys Loss: 6.16e-06 | Val: 3.4893e-06\n",
+      "[26/32] Full Phys | Train Data Loss: 3.7664e-06 | Train Phys Loss: 6.16e-06 | Val: 3.4331e-06\n",
+      "[27/32] Full Phys | Train Data Loss: 3.7154e-06 | Train Phys Loss: 6.15e-06 | Val: 3.4269e-06\n",
+      "[28/32] Full Phys | Train Data Loss: 3.6708e-06 | Train Phys Loss: 6.16e-06 | Val: 3.3376e-06\n",
+      "[29/32] Full Phys | Train Data Loss: 3.6342e-06 | Train Phys Loss: 6.15e-06 | Val: 3.3582e-06\n",
+      "[30/32] Full Phys | Train Data Loss: 3.5962e-06 | Train Phys Loss: 6.15e-06 | Val: 3.2564e-06\n",
+      "[31/32] Full Phys | Train Data Loss: 3.5568e-06 | Train Phys Loss: 6.14e-06 | Val: 3.2933e-06\n",
+      "It takes 4776.73 s to train FNO2D\n"
+
+
+
